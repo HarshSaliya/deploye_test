@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Check Your Mail  and Enter Your Email Confirm Otp here</p>
+    <form action="" method="POST">
+        {% csrf_token %}
+
+        OTP: <input type="text" name="otpp">
+        <input type="submit" value="submit"> 
+    </form>
+</body>
+</html>
